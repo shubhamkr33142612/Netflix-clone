@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    
+  position:inherit;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  bottom: 0;
+  height: 30px;
+  color: whitesmoke;
+  padding-top: 0.2rem;
+  
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  background-color: #242222;
+}
+.footer__1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  
+}
+.name{
+    color: rgb(250, 229, 41);
+    font-size: 15px;
+}
+
+.footer__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem !important;
+}
+.icon {
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icon:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: all 0.2ms;
+}
+.twitter {
+  color: rgb(111, 175, 228);
+}
+.whatsapp {
+  color: rgb(49, 224, 59);
+}
+.gmail {
+
+  color: rgb(214, 52, 52);
+
+}
+@media only screen and (min-width:530px) and (max-width:823px) {
+.footer{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+    
+}
+@media only screen and (max-width:530px) {
+    .footer{
+        height:fit-content;
+        display: flex;
+        flex-direction:column ;
+        font-size: 13px;
+        
+    }
+    .footer__2{
+        
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}

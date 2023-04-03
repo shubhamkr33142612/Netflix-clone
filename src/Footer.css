@@ -1,0 +1,84 @@
+@media only screen and (min-width: 490px){
+  .footer{
+    display: none;
+    float: none;
+    flex-direction: column;
+    width: 100%;
+   
+  }
+  
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(53, 50, 50);
+  color: white;
+  padding: 2px;
+  font-size: small;
+  z-index: 1;
+ 
+}
+
+.footer__1 {
+  margin-left: 10px;
+}
+.name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(250, 229, 41);
+  font-size: 15px;
+  
+}
+.footer__2 {
+  transform: scale(1.11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  transition: transform 450ms;
+  
+}
+.footer__2 > h4 {
+  font-weight: 200;
+  margin-right: 0.625rem;
+}
+.icon:hover {
+  cursor: pointer;
+  transition: all 0.2s;
+  transform: scale(1.1);
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+.icon > span {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter {
+  color: rgb(111, 175, 228);
+}
+.whatsapp {
+  color: rgb(59, 224, 59);
+}
+.gmail {
+  color: rgb(214, 52, 52);
+}
+
+
+
+
+
+.all{
+  display: flex;
+  text-decoration: none;
+}
